@@ -38,6 +38,8 @@
 - [Lab 14](#laboratorium-14)
 - [Lab 15](#laboratorium-15)
 
+# Laboratoria
+
 ## Laboratorium 01
 
 ### Zadanie 1
@@ -95,3 +97,31 @@ Napisz program, który znajduje wszystkie trójki pitagorejskie o wartościach n
 Zakładamy, że 0 < a < b < c.
 
 [Rozwiązanie](https://github.com/tukarp/Programming-In-Rust/blob/main/Laboratoria/Lab%2001/Zadanie%209.rs)
+
+## Laboratorium 02
+
+## Laboratorium 03
+
+## Laboratorium 04
+
+## Laboratorium 05
+
+## Laboratorium 06
+
+## Laboratorium 07
+
+## Laboratorium 08
+
+## Laboratorium 09
+
+## Laboratorium 10
+
+## Laboratorium 11
+
+## Laboratorium 12
+
+## Laboratorium 13
+
+## Laboratorium 14
+
+## Laboratorium 15
