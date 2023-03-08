@@ -60,7 +60,7 @@
 
 ## Laboratorium 01
 
-[Rozwiązanie](https://github.com/tukarp/Programming-In-Rust/blob/main/Laboratoria/Lab%2001/Zadanie%.rs)
+[Rozwiązanie](https://github.com/tukarp/Programming-In-Rust/blob/main/Laboratoria/Lab%2001/Zadanie.rs)
 
 ## Laboratorium 02
 
