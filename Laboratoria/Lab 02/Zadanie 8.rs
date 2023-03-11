@@ -1,11 +1,15 @@
-fn main() {
-    let original_x = 135790;
-    let mut x = original_x;
-    let mut sum = 0;
-    
-    while x > 0 {
-        sum = sum + x % 10;
-        x /= 10;
+// oblicz sumę cyfr podanej liczby
+fn get_digits_sum(mut number: i32) -> i32{
+    let mut sum: i32 = 0;
+    while number > 0 {
+        sum = sum + number % 10;
+        number /= 10;
     }
-    println!("Suma cyfr liczby {original_x} wynosi: {sum}");
+    return sum;
+}
+
+fn main() {
+    let number = 1234567890;
+    let digits_sum = get_digits_sum(number);
+    println!("Suma cyfr liczby {number} wynosi: {digits_sum}");
 }
