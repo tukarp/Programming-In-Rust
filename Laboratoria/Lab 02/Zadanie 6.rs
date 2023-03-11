@@ -1,15 +1,13 @@
-fn factorial(number: i64) {
-    let mut result = 1;
-    let mut i = 1;
-    while i <= number {
-        result *= i;
-        i += 1;
+// oblicz silnię
+fn factorial(number: i64) -> i64 {
+    if number <= 1 {
+        return number;
     }
-    println!("Silnia z liczby {number}, wynosi: {result}!");
+    return number * factorial(number - 1);
 }
 
 fn main() {
     let number = 5;
-    
-    factorial(number);
+    let factorial_result : i64 = factorial(number);
+    println!("Silnia z liczby {number}, wynosi: {factorial_result}!");
 }
