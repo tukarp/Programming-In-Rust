@@ -1,58 +1,38 @@
-fn get_days_in_month(year: i32, month: i32) {
-    // warunek roku przystępnego
+// sprawdź czy rok jest przystępny
+fn leap_year_check(year: i32) -> bool {
+    let leap_year;
     if((year % 4 == 0) && (year % 100 != 0)) || (year % 400 == 0) {
-        // jeśli miesiąc jest mniejszy od 8
-        if month < 8 {
-            // jeśli nie podzielny przez 2 to ma 31 dni
-            if month % 2 != 0 {
-                println!("Ten miesiąc ma 31 dni");
-            // jeśli to luty to ma 29 dni
-            } else if month == 2 {
-                println!("Ten miesiąc ma 29 dni");
-            // w przeciwnym przypadku ma 30 dni
-            } else {
-                println!("Ten miesiąc ma 30 dni");
-            }
-        // jeśli miesiąc jest większy równy 8
-        } else {
-            // jeśli podzielny przez 2 to ma 31 dni
-            if month % 2 == 0 {
-                println!("Ten miesiąc ma 31 dni");
-            // w przeciwnym przypadku ma 30 dni
-            } else {
-                println!("Ten miesiąc ma 30 dni");
-            }
-        }
-    // jeśli rok nie jest przystępny
+        leap_year = true;
+        println!("This year is leap!");
     } else {
-         // jeśli miesiąc jest mniejszy od 8
-        if month < 8 {
-            // jeśli nie podzielny przez 2 to ma 31 dni
-            if month % 2 != 0 {
-                println!("Ten miesiąc ma 31 dni");
-            // jeśli to luty to ma 28 dni
-            } else if month == 2 {
-                println!("Ten miesiąc ma 28 dni");
-            // w przeciwnym przypadku ma 30 dni
-            } else {
-                println!("Ten miesiąc ma 30 dni");
-            }
-        // jeśli miesiąc jest większy równy 8
+        leap_year = false;
+        println!("This year isn't leap!");
+    }
+    return leap_year;
+}
+
+// sprawdź ile dni ma dany miesiąc
+fn get_month_days(year: i32, month: i32) {
+    // miesiące które mają 31 dni
+    if month == 1 || month == 3 || month == 5 || month == 7 || month == 8 || month == 10 || month == 12 {
+        println!("{month} month has 31 days!");
+    // luty
+    } else if month == 2 {
+        // jeśli rok jest przystępny
+        if leap_year_check(year) {
+            println!("{month} month has 29 days!");
+        // w przeciwnym przypadku
         } else {
-            // jeśli podzielny przez 2 to ma 31 dni
-            if month % 2 == 0 {
-                println!("Ten miesiąc ma 31 dni");
-            // w przeciwnym przypadku ma 30 dni
-            } else {
-                println!("Ten miesiąc ma 30 dni");
-            }
+            println!("{month} month has 28 days!");
         }
+    // miesiące które mają 30 dni
+    } else {
+        println!("{month} month has 30 days");
     }
 }
 
 fn main() {
     let year = 2023;
     let month = 3;
-    
-    get_days_in_month(year, month);
+    get_month_days(year, month);
 }
