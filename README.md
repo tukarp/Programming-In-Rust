@@ -128,6 +128,34 @@ Zakładamy, że 0 < a < b < c.
 
 ## Laboratorium 04
 
+### Zadanie 1
+
+Napisz program z generatorem liczb pseudolosowych, którego ziarno przechowywane będzie na zewnątrz i podawane w pierwszym parametrze, a w parametrze drugim i trzecim podawany będzie przedział losowanych liczb.
+
+```
+fn rand(seed: &mut ..., min_rand: ..., max_rand: ...) -> ...
+```
+
+### Zadanie 2
+
+Napisz program z funkcją
+
+```
+swap_arr(arr: ..., i: usize, j: usize)
+```
+
+która zamieni wartości dwóch podanych elementów pewnej tablicy.
+
+### Zadanie 3
+
+Napisz program z funkcją
+
+```
+rand_perm(arr: ..., seed: ...)
+```
+
+permutującą w miejscu w sposób losowy wartości tablicy przekazanej w argumencie.
+
 ## Laboratorium 05
 
 ## Laboratorium 06
