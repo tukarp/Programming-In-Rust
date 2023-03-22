@@ -133,7 +133,7 @@ Zakładamy, że 0 < a < b < c.
 Napisz program z generatorem liczb pseudolosowych, którego ziarno przechowywane będzie na zewnątrz i podawane w pierwszym parametrze, a w parametrze drugim i trzecim podawany będzie przedział losowanych liczb.
 
 ```
-fn rand(seed: &mut ..., min_rand: ..., max_rand: ...) -> ...
+fn rand(seed: &mut ..., min_random: ..., max_random: ...) -> ...
 ```
 
 ### Zadanie 2
@@ -141,7 +141,7 @@ fn rand(seed: &mut ..., min_rand: ..., max_rand: ...) -> ...
 Napisz program z funkcją
 
 ```
-swap_arr(arr: ..., i: usize, j: usize)
+swap_array(array: ..., i: usize, j: usize)
 ```
 
 która zamieni wartości dwóch podanych elementów pewnej tablicy.
@@ -151,7 +151,7 @@ która zamieni wartości dwóch podanych elementów pewnej tablicy.
 Napisz program z funkcją
 
 ```
-rand_perm(arr: ..., seed: ...)
+rand_perm(array: ..., seed: ...)
 ```
 
 permutującą w miejscu w sposób losowy wartości tablicy przekazanej w argumencie.
