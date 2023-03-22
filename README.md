@@ -215,8 +215,8 @@ Napisz program z funkcją, która wyświetli rozkład podanej liczby na czynniki
 ### Zadanie 10
 
 Napisz program z funkcją ```pow_mod(x: u128, n: u128, p: u128) -> u128``` która obliczy ```(x^n)%p``` taki sposób, by działało to prawidłowo dla jak największych danych.
-Wskazówka 1: skorzystaj z własności reszty z dzielenia dla iloczynu (czy też inaczej: iloczynu modulo).
-Wskazówka 2: w celu ewentualnej optymalizacji czasowej użyj algorytmu szybkiego potęgowania.
+- Wskazówka 1: skorzystaj z własności reszty z dzielenia dla iloczynu (czy też inaczej: iloczynu modulo).
+- Wskazówka 2: w celu ewentualnej optymalizacji czasowej użyj algorytmu szybkiego potęgowania.
 
 [Rozwiązanie](https://github.com/tukarp/Programming-In-Rust/blob/main/Laboratoria/Lab%2003/Zadanie%2010.rs)
 
