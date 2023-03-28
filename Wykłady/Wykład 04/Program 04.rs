@@ -26,5 +26,5 @@ fn main() {
 
     println!("{:?}", s0.len());
     println!("{:?}", s0.bytes().len());
-//     println!("{:?}", s0.chars().len());  // nie ma
+//  println!("{:?}", s0.chars().len());     // nie ma
 }
