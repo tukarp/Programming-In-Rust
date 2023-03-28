@@ -204,7 +204,7 @@ Napisz program z funkcją, która odpowiada na pytanie, czy jej argument jest li
 
 Napisz program z funkcją, która odpowiada na pytanie, czy jej argument jest liczbą doskonałą.
 
-### [Rozwiązanie]https://github.com/tukarp/Programming-In-Rust/blob/main/Laboratoria/Lab%2003/Zadanie%208.rs()
+### [Rozwiązanie](https://github.com/tukarp/Programming-In-Rust/blob/main/Laboratoria/Lab%2003/Zadanie%208.rs)
 
 ### Zadanie 9
 
