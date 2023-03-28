@@ -1,4 +1,4 @@
-// oblicz sumę cyfr podanej liczby
+// Oblicz sumę cyfr podanej liczby
 fn get_digits_sum(mut number: i32) -> i32{
     let mut sum: i32 = 0;
     while number > 0 {
