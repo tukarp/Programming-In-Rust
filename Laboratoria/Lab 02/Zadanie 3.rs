@@ -1,4 +1,4 @@
-// zamień celsjusze na fahrenheity
+// Zamień celsjusze na fahrenheity
 fn celsius_to_fahrenheit(celsius_temperature: f32) -> f32 {
     let fahrenheit_temperature: f32 = ((9.0 / 5.0) * celsius_temperature) + 32.0;
     return fahrenheit_temperature;
