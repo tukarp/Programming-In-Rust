@@ -1,4 +1,4 @@
-// sprawdź czy rok jest przystępny
+// Sprawdź czy rok jest przystępny
 fn leap_year_check(year: i32) -> bool {
     let leap_year;
     if((year % 4 == 0) && (year % 100 != 0)) || (year % 400 == 0) {
@@ -11,21 +11,21 @@ fn leap_year_check(year: i32) -> bool {
     return leap_year;
 }
 
-// sprawdź ile dni ma dany miesiąc
+// Sprawdź ile dni ma dany miesiąc
 fn get_month_days(year: i32, month: i32) {
-    // miesiące które mają 31 dni
+    // Miesiące które mają 31 dni
     if month == 1 || month == 3 || month == 5 || month == 7 || month == 8 || month == 10 || month == 12 {
         println!("{month} month has 31 days!");
-    // luty
+    // Luty
     } else if month == 2 {
-        // jeśli rok jest przystępny
+        // Jeśli rok jest przystępny
         if leap_year_check(year) {
             println!("{month} month has 29 days!");
-        // w przeciwnym przypadku
+        // W przeciwnym przypadku
         } else {
             println!("{month} month has 28 days!");
         }
-    // miesiące które mają 30 dni
+    // Miesiące które mają 30 dni
     } else {
         println!("{month} month has 30 days");
     }
