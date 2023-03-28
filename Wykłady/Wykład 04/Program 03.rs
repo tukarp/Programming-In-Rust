@@ -15,5 +15,5 @@ fn main() {
     tablica[2] = 567;
     println!("{}", tablica.len());
     wyswietl_jeden(&tablica, 1);
-//     wyswietl_jeden(&tablica, 100);  // błąd -- w czasie wykonania
+//  wyswietl_jeden(&tablica, 100);      // błąd - w czasie wykonania
 }
