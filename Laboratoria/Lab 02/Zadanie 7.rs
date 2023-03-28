@@ -1,4 +1,4 @@
-// wyświetl cyfry podanej liczby
+// Wyświetl cyfry podanej liczby
 fn print_digits_of_number(mut number: i32) {
     while number > 0 {
         print!("{} ", number % 10);
