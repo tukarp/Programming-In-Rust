@@ -1,4 +1,4 @@
-// oblicz różnice czasu
+// Oblicz różnice czasu
 fn time_difference(mut hours_start: i32, mut minutes_start: i32, mut seconds_start: i32, hours_subtract: i32, minutes_subtract: i32, seconds_subtract : i32) {
     println!("Startowa godzina:     {hours_start}:{minutes_start}:{seconds_start}");
     println!("Odejmowana godzina:   {hours_subtract}:{minutes_subtract}:{seconds_subtract}");
@@ -19,11 +19,11 @@ fn time_difference(mut hours_start: i32, mut minutes_start: i32, mut seconds_sta
 }
 
 fn main() {
-    // startowa godzina
+    // Startowa godzina
     let hours_start: i32 = 10;
     let minutes_start: i32 = 45;
     let seconds_start: i32 = 39;
-    // godzina od której odejmujemy
+    // Godzina od której odejmujemy
     let hours_subtract: i32 = 16;
     let minutes_subtract: i32 = 15;
     let seconds_subtract: i32 = 47;
