@@ -7,5 +7,5 @@ fn main() {
     wyswietl(&tablica);
     println!("{}", tablica[1]);
     tablica[2] = 567;
-//     tablica[100] = 987;  // błąd -- na poziomie kompilacji
+//  tablica[100] = 987;     // błąd -- na poziomie kompilacji
 }
