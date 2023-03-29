@@ -1,4 +1,4 @@
-# Programming-In-Rust
+# Programowanie w Rustcie
 
 ## Spis Treści
 
