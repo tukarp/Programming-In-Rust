@@ -22,21 +22,15 @@
 
 ### Laboratoria
 
-- [Laboratorium 01](#laboratorium-01)
-- [Laboratorium 02](#laboratorium-02)
-- [Laboratorium 03](#laboratorium-03)
-- [Laboratorium 04](#laboratorium-04)
-- [Laboratorium 05](#laboratorium-05)
-- [Laboratorium 06](#laboratorium-06)
-- [Laboratorium 07](#laboratorium-07)
-- [Laboratorium 08](#laboratorium-08)
-- [Laboratorium 09](#laboratorium-09)
-- [Laboratorium 10](#laboratorium-10)
-- [Laboratorium 11](#laboratorium-11)
-- [Laboratorium 12](#laboratorium-12)
-- [Laboratorium 13](#laboratorium-13)
-- [Laboratorium 14](#laboratorium-14)
-- [Laboratorium 15](#laboratorium-15)
+- [Zestaw 01a](#zestaw-01a)
+- [Zestaw 01b](#zestaw-01b)
+- [Zestaw 02a](#zestaw-02a)
+- [Zestaw 02b](#zestaw-02b)
+- [Zestaw 03a](#zestaw-03a)
+- [Zestaw 03b](#zestaw-03b)
+- [Zestaw 04a](#zestaw-04a)
+- [Kolokwium I](#kolokwium-i)
+- [Zestaw 05](#zestaw-05)
 
 ### Materiały
 
@@ -44,11 +38,7 @@
 
 # Laboratoria
 
-## Laboratorium 01
-
-### [Rozwiązanie](https://github.com/tukarp/Programming-In-Rust/blob/main/Laboratoria/Lab%2001/Zadanie.rs)
-
-## Laboratorium 02
+## [Zestaw 01a]()
 
 ### Zadanie 1
 
@@ -106,19 +96,21 @@ Zakładamy, że 0 < a < b < c.
 
 ### [Rozwiązanie](https://github.com/tukarp/Programming-In-Rust/blob/main/Laboratoria/Lab%2001/Zadanie%209.rs)
 
-### Zadanie 10
+## [Zestaw 01b]()
+
+### Zadanie 1
 
 Napisz program, implementujący wyznaczanie pierwiastków funkcji rzeczywistej f metodą Newtona (https://pl.wikipedia.org/wiki/Metoda_Newtona) w postaci funkcji, która zrealizuje liczbę kroków algorytmu przekazaną w argumencie. Wyodrębnij funkcję pomocniczą, która zwróci wartość pochodnej funkcji f′ w punkcie.
 
 ### [Rozwiązanie](https://github.com/tukarp/Programming-In-Rust/blob/main/Laboratoria/Lab%2002/Zadanie%2010.rs)
 
-### Zadanie 11
+### Zadanie 2
 
 Napisz program modyfikujący kod z zadania 10. tak, aby założenia o różnych znakach na krańcach przedziału oraz stałym znaku pochodnej nie były potrzebne. 
 
 ### [Rozwiązanie](https://github.com/tukarp/Programming-In-Rust/blob/main/Laboratoria/Lab%2002/Zadanie%2011.rs)
 
-## Laboratorium 03
+## [Zestaw 02a]()
 
 ### Zadanie 1
 
@@ -146,55 +138,57 @@ realizującą znajdowanie przybliżonego miejsca zerowego metodą Newtona — w 
 
 ### [Rozwiązanie](https://github.com/tukarp/Programming-In-Rust/blob/main/Laboratoria/Lab%2003/Zadanie%201.rs)
 
-### Zadanie 2
+## [Zestaw 02b]()
+
+### Zadanie 1
 
 Napisz program modyfikując wcześniejsze zadanie tak, by obliczenia były prowadzone nie dla sztywno zakodowanych funkcji i ich pochodnych, lecz by funkcję i pochodną można było przekazać do funkcji obliczającej miejsce zerowe (wskazówka: funkcja tablicuj na wykładzie).
 
 ### [Rozwiązanie](https://github.com/tukarp/Programming-In-Rust/blob/main/Laboratoria/Lab%2003/Zadanie%202.rs)
 
-### Zadanie 3
+### Zadanie 2
 
 Napisz program z funkcją dwuargumentową, która zamieni wartości podanych w argumentach zmiennych (dla ustalenia uwagi: typu ```i32```).
 
 ### [Rozwiązanie](https://github.com/tukarp/Programming-In-Rust/blob/main/Laboratoria/Lab%2003/Zadanie%203.rs)
 
-### Zadanie 4
+### Zadanie 3
 
 Napisz program z funkcją trójargumentową, która poprzestawia wartości swoich argumentów (dla ustalenia uwagi: typu ```i32```) tak, by były uporządkowane niemalejąco. W poniższych zadaniach staraj się dobierać najwygodniejsze konstrukcje powtarzania.
 
 ### [Rozwiązanie](https://github.com/tukarp/Programming-In-Rust/blob/main/Laboratoria/Lab%2003/Zadanie%204.rs)
 
-### Zadanie 5
+### Zadanie 4
 
 Napisz program wyświetlający tabelę widzialnych znaków ASCII wraz kodami (od 33 do 126).
 
 ### [Rozwiązanie](https://github.com/tukarp/Programming-In-Rust/blob/main/Laboratoria/Lab%2003/Zadanie%205.rs)
 
-### Zadanie 6
+### Zadanie 5
 
 Napisz program z funkcją, która dla danego całkowitego dodatniego n zwraca numer iteracji, w której osiągamy jedynkę w problemie Collatza (np. dla ```n``` = ```12``` wynikiem jest ```9```).
 
 ### [Rozwiązanie](https://github.com/tukarp/Programming-In-Rust/blob/main/Laboratoria/Lab%2003/Zadanie%206.rs)
 
-### Zadanie 7
+### Zadanie 6
 
 Napisz program z funkcją, która odpowiada na pytanie, czy jej argument jest liczbą Armstronga.
 
 ### [Rozwiązanie](https://github.com/tukarp/Programming-In-Rust/blob/main/Laboratoria/Lab%2003/Zadanie%207.rs)
 
-### Zadanie 8
+### Zadanie 7
 
 Napisz program z funkcją, która odpowiada na pytanie, czy jej argument jest liczbą doskonałą.
 
 ### [Rozwiązanie](https://github.com/tukarp/Programming-In-Rust/blob/main/Laboratoria/Lab%2003/Zadanie%208.rs)
 
-### Zadanie 9
+### Zadanie 8
 
 Napisz program z funkcją, która wyświetli rozkład podanej liczby na czynniki pierwsze.
 
 ### [Rozwiązanie](https://github.com/tukarp/Programming-In-Rust/blob/main/Laboratoria/Lab%2003/Zadanie%209.rs)
 
-### Zadanie 10
+### Zadanie 9
 
 Napisz program z funkcją ```pow_mod(x: u128, n: u128, p: u128) -> u128``` która obliczy ```(x^n)%p``` taki sposób, by działało to prawidłowo dla jak największych danych.
 - Wskazówka 1: skorzystaj z własności reszty z dzielenia dla iloczynu (czy też inaczej: iloczynu modulo).
@@ -202,7 +196,9 @@ Napisz program z funkcją ```pow_mod(x: u128, n: u128, p: u128) -> u128``` któr
 
 ### [Rozwiązanie](https://github.com/tukarp/Programming-In-Rust/blob/main/Laboratoria/Lab%2003/Zadanie%2010.rs)
 
-## Laboratorium 04
+## Zestaw 03a
+
+### [Rozwiązania]()
 
 ### Zadanie 1
 
@@ -238,24 +234,165 @@ permutującą w miejscu w sposób losowy wartości tablicy przekazanej w argumen
 
 ### [Rozwiązanie](https://github.com/tukarp/Programming-In-Rust/blob/main/Laboratoria/Lab%2004/Zadanie%203.rs)
 
-## Laboratorium 05
+## Zestaw 03b
 
-## Laboratorium 06
+### [Rozwiązania]()
 
-## Laboratorium 07
+### Zadanie 1
 
-## Laboratorium 08
+Napisz program z funkcją o nagłówku:
 
-## Laboratorium 09
+```
+fn liczba_wystapien(napis: ..., znak: ...) -> ...
+```
 
-## Laboratorium 10
+która zliczy i zwróci ile jest danych znaków w danym napisie.
 
-## Laboratorium 11
+### [Rozwiązanie]()
 
-## Laboratorium 12
+### Zadanie 2
 
-## Laboratorium 13
+Napisz program z funkcją o nagłówku:
 
-## Laboratorium 14
+```
+fn co_drugi_znak(napis: ...) -> ...
+```
 
-## Laboratorium 15
+która zwróci napis zawierający co drugi znak z danego napisu.
+
+### [Rozwiązanie]()
+
+### Zadanie 3
+
+Napisz program z funkcją o nagłówku:
+
+```
+fn szyfruj(napis: ..., klucz: ...) -> ...
+```
+
+która dla danego napisu zwróci ten sam napis zaszyfrowany prostym szyfrem odwracającym — klucz określa długość odwracanych fragmentów. Przykłady:
+
+```
+szyfruj("Aladyn", 2) == "lAdany"
+szyfruj("Aladyn", 3) == "alAnyd"
+szyfruj("Aladyn", 4) == "dalAny"
+szyfruj("Aladyn", 5) = "ydalAn"
+szyfruj("koza", 3) == "zoka"
+szyfruj("kaszanka", 3) == "saknazak"
+szyfruj("kot Mruczek", 9) == "zcurM tokke"
+szyfruj("kot Mruczek", 1) == "kot Mruczek"
+szyfruj("kot Mruczek", 2) == "ok trMcuezk"
+```
+
+### [Rozwiązanie]()
+
+### Zadanie 4
+
+Napisz program z funkcją o nagłówku ```wizytowka```, która otrzymuje w dwóch parametrach napisowych imię i nazwisko, a zwraca napis powstały z pierwszej litery imienia, kropki, spacji i nazwiska, przy czym w wyniku pierwsza litera imienia i nazwiska mają być duże, pozostałe małe. Na przykład, dla danych "jan" oraz "KOWALSKI" funkcja ma zwracać napis "J. Kowalski".
+
+### [Rozwiązanie]()
+
+### Zadanie 5
+
+Napisz program z funkcją o nagłówku:
+
+```
+fn rzymskie(napis: ...) -> ...
+```
+
+która dla napisu reprezentującego liczbę w zapisie rzymskim (zakładamy jego poprawność) zwraca liczbę reprezentowaną przez ów napis. Przykłady:
+
+```
+rzymskie("III") == 3
+rzymskie("IX") == 9
+rzymskie("XIX") == 19
+rzymskie("MCMX") == 1910
+```
+
+### [Rozwiązanie]()
+
+### Zadanie 6
+
+Napisz program z funkcją o nagłówku:
+
+```
+fn na_rzymskie(liczba: ...) -> ...
+```
+
+która dla danej liczby całkowitej zwraca jej zapis rzymski. Przykłady:
+
+```
+na_rzymskie(3) == "III"
+na_rzymskie(9) == "IX"
+na_rzymskie(19) == "XIX"
+na_rzymskie(1910) == "MCMX"
+```
+
+### [Rozwiązanie]()
+
+### Zadanie 7
+
+Napisz program z funkcją o nagłówku:
+
+```
+fn dodaj_pisemnie(a: ..., b: ...) -> ...
+```
+
+która doda dwie (zakładamy, że poprawne) liczby całkowite podane w argumentach jako napisy w zapisie dziesiętnym — i zwróci wynik również jako napis. Uwaga: dodawanie należy przeprowadzić pisemnie, bowiem liczby mogą być dowolnie duże. Przykłady:
+
+```
+dodaj_pismnie("1", "3") == "4"
+dodaj_pismnie("1", "3") == "4"
+dodaj_pismnie("8", "3") == "11"
+dodaj_pismnie("10", "23") == "33"
+dodaj_pismnie("1", "0") == "1"
+dodaj_pismnie("11", "00") == "11"
+dodaj_pismnie("131", "9900") == "10031"
+dodaj_pismnie("998", "7") == "1005"
+dodaj_pismnie("24872947", "294729478") == "319602425"
+dodaj_pismnie("5924729874298749827418582", "6782893629472094209740298") == "12707623503770844037158880"
+```
+
+### [Rozwiązanie]()
+
+## [Zestaw 04a]()
+
+### Zadanie 1
+
+Napisz program z funkcją o nagłówku:
+
+```
+fn dodaj_pisemnie(a: ..., b: ...) -> Result<...>
+```
+
+która doda dwie (nie zakładamy, że poprawne!) liczby całkowite podane w argumentach jako napisy w zapisie dziesiętnym — i zwróci wynik również jako napis (lub napisowy opis błędu). Uwaga: dodawanie należy przeprowadzić pisemnie, bowiem liczby mogą być dowolnie duże. Użyj pomocniczej funkcji:
+
+```
+fn wartosc_cyfry(c: char) -> Result<...>
+```
+
+oraz operatora ```?```
+
+### [Rozwiązanie]()
+
+### Zadanie 2
+
+Napisz program z funkcją o nagłówku:
+
+```
+fn rzymskie(napis: ...) -> Result<...>
+```
+
+która dla napisu reprezentującego liczbę w zapisie rzymskim (nie zakładamy jego poprawności!) zwraca liczbę reprezentowaną przez ów napis lub napisowy opis błędu. Błędy mogą być dwojakie — niewłaściwa cyfra (o tym powiadomi nas poniższa funkcja pomocnicza) oraz niewłaściwa kolejność cyfr. Użyj pomocniczej funkcji:
+
+```
+fn wartosc_cyfry_rzymskiej(c: char) -> Result<...>
+```
+
+oraz operatora ```?```
+
+### [Rozwiązanie]()
+
+## Kolokwium
+
+## [Zestaw 05]()
