@@ -2,6 +2,18 @@
 
 ## Spis Treści
 
+### Laboratoria
+
+- [Zestaw 01a](#zestaw-01a)
+- [Zestaw 01b](#zestaw-01b)
+- [Zestaw 02a](#zestaw-02a)
+- [Zestaw 02b](#zestaw-02b)
+- [Zestaw 03a](#zestaw-03a)
+- [Zestaw 03b](#zestaw-03b)
+- [Zestaw 04a](#zestaw-04a)
+- [Kolokwium I](#kolokwium-i)
+- [Zestaw 05](#zestaw-05)
+
 ### Wykłady
 
 - [Wykład 01](https://github.com/tukarp/Programming-In-Rust/tree/main/Wyk%C5%82ady/Wyk%C5%82ad%2001)
@@ -19,18 +31,6 @@
 - [Wykład 13](https://github.com/tukarp/Programming-In-Rust/tree/main/Wyk%C5%82ady/Wyk%C5%82ad%2013)
 - [Wykład 14](https://github.com/tukarp/Programming-In-Rust/tree/main/Wyk%C5%82ady/Wyk%C5%82ad%2014)
 - [Wykład 15](https://github.com/tukarp/Programming-In-Rust/tree/main/Wyk%C5%82ady/Wyk%C5%82ad%2015)
-
-### Laboratoria
-
-- [Zestaw 01a](#zestaw-01a)
-- [Zestaw 01b](#zestaw-01b)
-- [Zestaw 02a](#zestaw-02a)
-- [Zestaw 02b](#zestaw-02b)
-- [Zestaw 03a](#zestaw-03a)
-- [Zestaw 03b](#zestaw-03b)
-- [Zestaw 04a](#zestaw-04a)
-- [Kolokwium I](#kolokwium-i)
-- [Zestaw 05](#zestaw-05)
 
 ### Materiały
 
@@ -389,6 +389,6 @@ oraz operatora ```?```
 
 ### [Rozwiązanie](https://github.com/tukarp/Programming-In-Rust/tree/main/Laboratoria/Zestaw%2004/Zestaw%2004a/Zadanie%202.rs)
 
-## [Kolokwium](https://github.com/tukarp/Programming-In-Rust/tree/main/Laboratoria/Kolokwium/)
+## [Kolokwium I](https://github.com/tukarp/Programming-In-Rust/tree/main/Laboratoria/Kolokwium-I/)
 
 ## [Zestaw 05](https://github.com/tukarp/Programming-In-Rust/tree/main/Laboratoria/Zestaw%2005/Zestaw%2005a)
