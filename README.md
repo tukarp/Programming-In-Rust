@@ -389,6 +389,6 @@ oraz operatora ```?```
 
 ### [Rozwiązanie](https://github.com/tukarp/Programming-In-Rust/tree/main/Laboratoria/Zestaw%2004/Zestaw%2004a/Zadanie%202.rs)
 
-## [Kolokwium I](https://github.com/tukarp/Programming-In-Rust/tree/main/Laboratoria/Kolokwium-I/)
+## [Kolokwium I](https://github.com/tukarp/Programming-In-Rust/tree/main/Laboratoria/Kolokwium%20I)
 
 ## [Zestaw 05](https://github.com/tukarp/Programming-In-Rust/tree/main/Laboratoria/Zestaw%2005/Zestaw%2005a)
