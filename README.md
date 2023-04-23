@@ -12,7 +12,7 @@
 - [Zestaw 03b](#zestaw-03b)
 - [Zestaw 04a](#zestaw-04a)
 - [Kolokwium I](#kolokwium-i)
-- [Zestaw 05](#zestaw-05a)
+- [Zestaw 05a](#zestaw-05a)
 
 ### Wykłady
 
@@ -407,7 +407,7 @@ która z danego wektora utworzy nowy z tymi samymi wartościami, ale tylko tymi,
 repeats(&vec![1, 3, 4, 3, 3, 3, 3, 4, 1, 1, 6]) == vec![3, 3, 3, 3, 1, 1]
 ```
 
-### [Rozwiązanie](https://github.com/tukarp/Programming-In-Rust/tree/main/Laboratoria/Zestaw%2005/Zestaw%2005a/Zadanie%201.rs)
+### [Rozwiązanie](https://github.com/tukarp/Programming-In-Rust/blob/main/Laboratoria/Zestaw%205/Zestaw%205a/Zadanie%201.rs)
 
 ### Zadanie 2
 
@@ -423,7 +423,7 @@ która utworzy i zwróci nowy wektor, ale tylko z wartościami, które w danym w
 unique_values(&vec![1, 3, 4, 3, 3, 5, 3, 4, 1, 1, 6]) == vec![5, 6]
 ```
 
-### [Rozwiązanie](https://github.com/tukarp/Programming-In-Rust/tree/main/Laboratoria/Zestaw%2005/Zestaw%2005a/Zadanie%202.rs)
+### [Rozwiązanie](https://github.com/tukarp/Programming-In-Rust/blob/main/Laboratoria/Zestaw%205/Zestaw%205a/Zadanie%202.rs)
 
 ### Zadanie 3
 
@@ -442,7 +442,7 @@ count_repeats(&vec![1, 2, 1, 3], &vec![1, 2, 2]) == 4
 count_repeats(&vec![1, 2, 1, 3], &vec![1, 2, 2, 1]) == 6
 ```
 
-### [Rozwiązanie](https://github.com/tukarp/Programming-In-Rust/tree/main/Laboratoria/Zestaw%2005/Zestaw%2005a/Zadanie%203.rs)
+### [Rozwiązanie](https://github.com/tukarp/Programming-In-Rust/blob/main/Laboratoria/Zestaw%205/Zestaw%205a/Zadanie%203.rs)
 
 ### Zadanie 4
 
@@ -454,7 +454,7 @@ fn indexes(vector: ..., element: ...) -> ...
 
 która zwróci wektor indeksów (licząc od zera), na których znajduje się w zadanym wektorze podany element.
 
-### [Rozwiązanie](https://github.com/tukarp/Programming-In-Rust/tree/main/Laboratoria/Zestaw%2005/Zestaw%2005a/Zadanie%204.rs)
+### [Rozwiązanie](https://github.com/tukarp/Programming-In-Rust/blob/main/Laboratoria/Zestaw%205/Zestaw%205a/Zadanie%204.rs)
 
 ### Zadanie 5
 
@@ -466,7 +466,7 @@ Napisz program wykorzystujący iteratory i tworzący wektor zawierający:
 - odwrotności wszystkich liczb od 1 do 20,
 - liczby od 1 do 100 podzielne przez 3, ale niepodzielne przez 4.
 
-### [Rozwiązanie](https://github.com/tukarp/Programming-In-Rust/tree/main/Laboratoria/Zestaw%2005/Zestaw%2005a/Zadanie%205.rs)
+### [Rozwiązanie](https://github.com/tukarp/Programming-In-Rust/blob/main/Laboratoria/Zestaw%205/Zestaw%205a/Zadanie%205.rs)
 
 ### Zadanie 6
 
@@ -478,4 +478,4 @@ Napisz program wykorzystujący iteratory i tworzący wektor zawierający:
 - te same napisy ale odwrócone,
 - napisy zawierających podwojoną literę (na przykład: inny, pizza, brutto, lekki, dzienny, itp).
 
-### [Rozwiązanie](https://github.com/tukarp/Programming-In-Rust/tree/main/Laboratoria/Zestaw%2005/Zestaw%2005a/Zadanie%206.rs)
+### [Rozwiązanie](https://github.com/tukarp/Programming-In-Rust/blob/main/Laboratoria/Zestaw%205/Zestaw%205a/Zadanie%206.rs)
