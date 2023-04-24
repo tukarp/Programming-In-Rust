@@ -4,8 +4,8 @@ fn main() {
     a = if a % 2 == 0 {
         a / 2
     } else {
-        let pom = 3*a;
-        pom + 1
+        let temp = 3 * a;
+        temp + 1
     };
 
     println!("{:?}", a);

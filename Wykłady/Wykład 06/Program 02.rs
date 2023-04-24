@@ -1,13 +1,13 @@
 fn main() {
-    let v: Vec<_> = (1..=10).map(|n| n * n).collect();
-    println!("{:?}", v);
-    let v: Vec<_> = (1..=10).map(|n| n + 9).collect();
-    println!("{:?}", v);
+    let vector: Vec<_> = (1..=10).map(|n| n * n).collect();
+    println!("{:?}", vector);
+    let vector: Vec<_> = (1..=10).map(|n| n + 9).collect();
+    println!("{:?}", vector);
     let k = 9;
-    let v: Vec<_> = (1..=10).map(|n| n + k).collect();
-    println!("{:?}", v);
-    let v: Vec<_> = (1..=100).filter(|n| n % 10 == 1).collect();
-    println!("{:?}", v);
+    let vector: Vec<_> = (1..=10).map(|n| n + k).collect();
+    println!("{:?}", vector);
+    let vector: Vec<_> = (1..=100).filter(|n| n % 10 == 1).collect();
+    println!("{:?}", vector);
     let x: i32 = (1..=100).sum();
     println!("{:?}", x);
     let x: Option<i32> = (1..=100).reduce(|acc, x| acc + x);
@@ -21,15 +21,15 @@ fn main() {
     let x = (16..=100).rfind(|n| n % 6 == 0 && n % 15 == 0);
     println!("{:?}", x);
 
-    let v: Option<_> = (1..=100).find(|n| n % 10 != 5);
-    println!("{:?}", v);
-    let v: Vec<_> = (1..=100).filter(|n| n % 10 != 5).collect();
-    println!("{:?}", v);
-    let v: Vec<_> = (1..=100).take_while(|n| n % 10 != 5).collect();
-    println!("{:?}", v);
+    let vector: Option<_> = (1..=100).find(|n| n % 10 != 5);
+    println!("{:?}", vector);
+    let vector: Vec<_> = (1..=100).filter(|n| n % 10 != 5).collect();
+    println!("{:?}", vector);
+    let vector: Vec<_> = (1..=100).take_while(|n| n % 10 != 5).collect();
+    println!("{:?}", vector);
     
-    let v: Vec<_> = (1..=100).skip_while(|n| n % 10 != 5).collect();
-    println!("{:?}", v);
+    let vector: Vec<_> = (1..=100).skip_while(|n| n % 10 != 5).collect();
+    println!("{:?}", vector);
     
     let x = (1..).map(|x| 1.0/(x as f64)).find(|x| x < &0.03);
     println!("{:?}", x);
@@ -49,8 +49,8 @@ fn main() {
     let x = (10..).any(|x| x < 20);
     println!("{:?}", x);
     
-    let v: Vec<_> = (1..10).map(|x| println!("{:?}", x)).collect();
-    println!("{:?}", v);
+    let vector: Vec<_> = (1..10).map(|x| println!("{:?}", x)).collect();
+    println!("{:?}", vector);
     
     (1..10).map(|x| println!("{:?}", x)).collect::<Vec<_>>();
     

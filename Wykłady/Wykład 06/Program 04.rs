@@ -1,34 +1,34 @@
 fn main() {
-    let mut v3 = vec![3; 50];
-    println!("{:?} {:?} {:?}", v3, v3.len(), v3.capacity());
+//  Sposoby uzyskiwania iteratorów:
+//  vector.into_iter()
+//  vector.iter()
+//  vector.iter_mut()
     
-    let mut v4 = vec![3, 23098, 43, 22, 12123, 5];
-    println!("{:?} {:?} {:?}", v4, v4.len(), v4.capacity());
+    let mut vector3 = vec![3; 50];
+    println!("{:?} {:?} {:?}", vector3, vector3.len(), vector3.capacity());
     
-    v4.resize(10, -7);
-    v3.resize(8, 0);
+    let mut vector4 = vec![3, 23098, 43, 22, 12123, 5];
+    println!("{:?} {:?} {:?}", vector4, vector4.len(), vector4.capacity());
+    
+    vector4.resize(10, -7);
+    vector3.resize(8, 0);
 
-    println!("{:?} {:?} {:?}", v3, v3.len(), v3.capacity());
-    println!("{:?} {:?} {:?}", v4, v4.len(), v4.capacity());
+    println!("{:?} {:?} {:?}", vector3, vector3.len(), vector3.capacity());
+    println!("{:?} {:?} {:?}", vector4, vector4.len(), vector4.capacity());
     
-    v3.append(&mut v4);
-    println!("{:?} {:?} {:?}", v3, v3.len(), v3.capacity());
-    println!("{:?} {:?} {:?}", v4, v4.len(), v4.capacity());
+    vector3.append(&mut vector4);
+    println!("{:?} {:?} {:?}", vector3, vector3.len(), vector3.capacity());
+    println!("{:?} {:?} {:?}", vector4, vector4.len(), vector4.capacity());
 
-//  sposoby uzyskiwania iteratorów:
-//  v3.into_iter()
-//  v3.iter()
-//  v3.iter_mut()
-
-    v3.sort();
-    println!("{:?} {:?} {:?}", v3, v3.len(), v3.capacity());
+    vector3.sort();
+    println!("{:?} {:?} {:?}", vector3, vectorv3.len(), vector3.capacity());
     
-    v3.sort_by_key(|x| -x);
-    println!("{:?} {:?} {:?}", v3, v3.len(), v3.capacity());
+    vector3.sort_by_key(|x| -x);
+    println!("{:?} {:?} {:?}", vector3, vector3.len(), vector3.capacity());
     
-    v3.sort_unstable();
-    println!("{:?} {:?} {:?}", v3, v3.len(), v3.capacity());
+    vector3.sort_unstable();
+    println!("{:?} {:?} {:?}", vector3, vector3.len(), vector3.capacity());
     
-    v3.sort_unstable_by_key(|x| -x);
-    println!("{:?} {:?} {:?}", v3, v3.len(), v3.capacity());
+    vector3.sort_unstable_by_key(|x| -x);
+    println!("{:?} {:?} {:?}", vector3, vector3.len(), vector3.capacity());
 }

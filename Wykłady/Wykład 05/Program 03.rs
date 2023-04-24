@@ -24,6 +24,6 @@ fn main() {
     println!("{:?}", x.unwrap_or_default());
     println!("{:?}", y.unwrap_or_default());
 
-    println!("{:?}", x.expect("spodziewam się znaku!"));
+    println!("{:?}", x.expect("Spodziewam się znaku!"));
 //  println!("{:?}", y.expect("spodziewam się znaku!"));
 }

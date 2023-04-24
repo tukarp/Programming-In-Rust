@@ -14,19 +14,14 @@ fn main() {
         println!("{}", z);
     }
 
-//  println!("============");
-//    for z in (0..).step_by(5) {
-//      println!("{}", z);        // tu będzie biegło (prawie) w nieskończoność...
-//  }
-
     println!("============");
     for z in (0..5).chain(50..55) {
         println!("{}", z);
     }
 
     println!("============");
-    let v: Vec<_> = (0..5).chain(50..55).collect();
-    println!("{:?}", v);
+    let vector: Vec<_> = (0..5).chain(50..55).collect();
+    println!("{:?}", vector);
 
     println!("============");
     for z in (0..5).zip(50..55) {
@@ -65,6 +60,6 @@ fn main() {
     println!("{:?}", y);
 
     println!("============");
-    let s: u8 = [1, 4, 36].iter().sum();
-    println!("{:?}", s);
+    let array: u8 = [1, 4, 36].iter().sum();
+    println!("{:?}", array);
 }

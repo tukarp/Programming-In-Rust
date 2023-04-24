@@ -1,15 +1,15 @@
-fn nwd(a : i32, b : i32) -> i32 {
+fn greatest_common_divisor(a : i32, b : i32) -> i32 {
     if a == 0 {
         b
     } else if b == 0 {
         a
     } else if b > a {
-        nwd(b%a, a)
+        greatest_common_divisor(b %a , a)
     } else {
-        nwd(a%b, b)
+        greatest_common_divisor(a % b, b)
     }
 }
 
 fn main() {
-    println!("{}", nwd(100, 30));
+    println!("{}", greatest_common_divisor(100, 30));
 }

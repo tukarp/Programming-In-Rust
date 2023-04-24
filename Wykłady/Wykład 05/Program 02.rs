@@ -5,7 +5,7 @@
 // fn f3() -> Result<i32, BladParsowania> {}
 // 
 // fn f4() -> Option<i32> {}
-
+//
 // fn f1(...) -> Option<()>
 // // None, Some(())
 // 

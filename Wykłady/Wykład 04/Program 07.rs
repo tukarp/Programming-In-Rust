@@ -1,7 +1,7 @@
 fn main() {
-    let s0 = "Witaj, świecie!";
+    let string = "Witaj, świecie!";
     
-    for c in s0.chars().rev() {
+    for char in string.chars().rev() {
         println!("{}", c);
     }
 }

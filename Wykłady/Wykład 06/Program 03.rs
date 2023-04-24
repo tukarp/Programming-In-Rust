@@ -1,25 +1,25 @@
 fn main() {
-    let mut v1 = Vec::new();
-    println!("{:?} {:?} {:?}", v1, v1.len(), v1.capacity());
-    v1.push('x');
-    println!("{:?} {:?} {:?}", v1, v1.len(), v1.capacity());
-    let x = v1.pop();
-    println!("{:?} {:?} {:?} {:?}", v1, v1.len(), v1.capacity(), x);
+    let mut vector1 = Vec::new();
+    println!("{:?} {:?} {:?}", vector1, vector1.len(), vector1.capacity());
+    vector1.push('x');
+    println!("{:?} {:?} {:?}", vector1, vector1.len(), vector1.capacity());
+    let x = vector1.pop();
+    println!("{:?} {:?} {:?} {:?}", vector1, vector1.len(), vector1.capacity(), x);
     
-    let v2 = Vec::<char>::with_capacity(100);
-    println!("{:?} {:?} {:?}", v2, v2.len(), v2.capacity());
+    let vector2 = Vec::<char>::with_capacity(100);
+    println!("{:?} {:?} {:?}", vector2, vector2.len(), vector2.capacity());
     
-    let v3 = vec![3; 50];
-    println!("{:?} {:?} {:?}", v3, v3.len(), v3.capacity());
+    let vector3 = vec![3; 50];
+    println!("{:?} {:?} {:?}", vector3, vector3.len(), vector3.capacity());
     
-    let v4 = vec![3, 23098, 43, 22, 12123, 5];
-    println!("{:?} {:?} {:?}", v4, v4.len(), v4.capacity());
+    let vector4 = vec![3, 23098, 43, 22, 12123, 5];
+    println!("{:?} {:?} {:?}", vector4, vector4.len(), vector4.capacity());
     
-    println!("{:?}", v1 == v2);
-    println!("{:?}", v3 == v4);
+    println!("{:?}", vector1 == vector2);
+    println!("{:?}", vector3 == vector4);
     
-    println!("{:?}", v1 < v2);
-    println!("{:?}", v3 < v4);
+    println!("{:?}", vector1 < vector2);
+    println!("{:?}", vector3 < vector4);
     
     // dygresja
     println!("{}", (1, 'x') < (3, 'a'));

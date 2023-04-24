@@ -1,19 +1,18 @@
-fn powitaj(imie: &str) {
-    println!("Witaj, {}!", imie);
+fn greet(name: &str) {
+    println!("Witaj, {}!", name);
 }
 
-fn powitaj_z_przejeciem(imie: String) {
-    println!("Witaj, {}!", imie);
+fn greet2(name: String) {
+    println!("Witaj, {}!", name);
 }
 
 fn main() {
-    let imie = "Edek";
-    powitaj(imie);
-    let inne_imie: String = "Felek".to_string();
-    powitaj(&inne_imie);
-    powitaj(&inne_imie);
-    powitaj_z_przejeciem(inne_imie);
-//     powitaj_z_przejeciem(inne_imie); // tu już nie działa
+    let name = "Edek";
+    greet(name);
+    let name2: String = "Felek".to_string();
+    greet(&name2);
+    greet(&name2);
+    greet2(name2);
 }
 
 /*

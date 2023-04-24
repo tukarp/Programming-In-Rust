@@ -1,8 +1,8 @@
-fn wyswietl(t: &[i32]) {
-    println!("{:?}", t);
+fn print_array(array: &[i32]) {
+    println!("{:?}", array);
 }
 
 fn main() {
-    let tablica = [1, 2, 4, 10];
-    wyswietl(&tablica);
+    let array = [1, 2, 4, 10];
+    print_array(&array);
 }

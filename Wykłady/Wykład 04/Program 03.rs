@@ -1,19 +1,18 @@
-fn wyswietl(t: &[i32]) {
-    println!("{:?}", t);
+fn print_array(array: &[i32]) {
+    println!("{:?}", array);
 }
 
-fn wyswietl_jeden(t: &[i32], i: usize) {
-    let x = t.get(i);
+fn print_element(array: &[i32], i: usize) {
+    let x = array.get(i);
     println!("{:?}, {:?}, {:?}", x, x.is_none(), x.unwrap_or(&999));
     println!("{:?}", x.unwrap());
 }
 
 fn main() {
-    let mut tablica = [10, 20, 40, 100];
-    wyswietl(&tablica);
-    println!("{}", tablica[1]);
-    tablica[2] = 567;
-    println!("{}", tablica.len());
-    wyswietl_jeden(&tablica, 1);
-//  wyswietl_jeden(&tablica, 100);      // błąd - w czasie wykonania
+    let array = [10, 20, 40, 100];
+    print_array(&array);
+    println!("{}", array[1]);
+    array[2] = 567;
+    println!("{}", array.len());
+    print_element(&array, 1);
 }

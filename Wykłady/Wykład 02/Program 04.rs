@@ -3,10 +3,10 @@ fn main() {
     let b = 20;
 
     if a > b {
-        println!("większe");
+        println!("Greater");
     } else if a < b {
-        println!("mniejsze");
+        println!("Lesser");
     } else {
-        println!("równe");
+        println!("Equal");
     }
 }

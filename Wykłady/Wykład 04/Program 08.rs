@@ -1,9 +1,9 @@
 fn main() {
-    let s0 = "Witaj, świecie!";
-    let mut s2 = String::new();
+    let string1 = "Witaj, świecie!";
+    let mut string2 = String::new();
     
-    for c in s0.chars().rev() {
-        s2.push(c);
+    for char in string1.chars().rev() {
+        string2.push(char);
     }
-    println!("{}", s2);
+    println!("{}", string2);
 }
