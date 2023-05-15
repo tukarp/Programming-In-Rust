@@ -38,7 +38,9 @@
 
 # Laboratoria
 
-## [Zestaw 01a](https://github.com/tukarp/Programming-In-Rust/tree/main/Laboratoria/Zestaw%2001/Zestaw%2001a)
+## Zestaw 01a
+
+### [Rozwiązania](https://github.com/tukarp/Programming-In-Rust/tree/main/Laboratoria/Zestaw%2001/Zestaw%2001a)
 
 ### Zadanie 1
 
@@ -96,7 +98,9 @@ Zakładamy, że 0 < a < b < c.
 
 ### [Rozwiązanie](https://github.com/tukarp/Programming-In-Rust/blob/main/Laboratoria/Zestaw%2001/Zestaw%2001a/Zadanie%209.rs)
 
-## [Zestaw 01b](https://github.com/tukarp/Programming-In-Rust/tree/main/Laboratoria/Zestaw%2001/Zestaw%2001b)
+## Zestaw 01b
+
+### [Rozwiązania](https://github.com/tukarp/Programming-In-Rust/tree/main/Laboratoria/Zestaw%2001/Zestaw%2001b)
 
 ### Zadanie 1
 
@@ -138,7 +142,9 @@ realizującą znajdowanie przybliżonego miejsca zerowego metodą Newtona — w 
 
 ### [Rozwiązanie](https://github.com/tukarp/Programming-In-Rust/tree/main/Laboratoria/Zestaw%2002/Zestaw%2002a/Zadanie%201.rs)
 
-## [Zestaw 02b](https://github.com/tukarp/Programming-In-Rust/tree/main/Laboratoria/Zestaw%2002/Zestaw%2002b)
+## Zestaw 02b
+
+### [Rozwiązania](https://github.com/tukarp/Programming-In-Rust/tree/main/Laboratoria/Zestaw%2002/Zestaw%2002b)
 
 ### Zadanie 1
 
@@ -196,7 +202,9 @@ Napisz program z funkcją ```pow_mod(x: u128, n: u128, p: u128) -> u128``` któr
 
 ### [Rozwiązanie](https://github.com/tukarp/Programming-In-Rust/tree/main/Laboratoria/Zestaw%2002/Zestaw%2002b/Zadanie%209.rs)
 
-## [Zestaw 03a](https://github.com/tukarp/Programming-In-Rust/tree/main/Laboratoria/Zestaw%2003/Zestaw%2003a)
+## Zestaw 03a
+
+### [Rozwiązania](https://github.com/tukarp/Programming-In-Rust/tree/main/Laboratoria/Zestaw%2003/Zestaw%2003a)
 
 ### Zadanie 1
 
@@ -232,7 +240,9 @@ permutującą w miejscu w sposób losowy wartości tablicy przekazanej w argumen
 
 ### [Rozwiązanie](https://github.com/tukarp/Programming-In-Rust/tree/main/Laboratoria/Zestaw%2003/Zestaw%2003a/Zadanie%203.rs)
 
-## [Zestaw 03b](https://github.com/tukarp/Programming-In-Rust/tree/main/Laboratoria/Zestaw%2003/Zestaw%2003b)
+## Zestaw 03b
+
+### [Rozwiązania](https://github.com/tukarp/Programming-In-Rust/tree/main/Laboratoria/Zestaw%2003/Zestaw%2003b)
 
 ### Zadanie 1
 
@@ -351,7 +361,9 @@ dodaj_pismnie("5924729874298749827418582", "6782893629472094209740298") == "1270
 
 ### [Rozwiązanie](https://github.com/tukarp/Programming-In-Rust/tree/main/Laboratoria/Zestaw%2003/Zestaw%2003b/Zadanie%207.rs)
 
-## [Zestaw 04a](https://github.com/tukarp/Programming-In-Rust/tree/main/Laboratoria/Zestaw%2004/Zestaw%2004a)
+## Zestaw 04a
+
+### [Rozwiązania](https://github.com/tukarp/Programming-In-Rust/tree/main/Laboratoria/Zestaw%2004/Zestaw%2004a)
 
 ### Zadanie 1
 
@@ -389,9 +401,13 @@ oraz operatora ```?```
 
 ### [Rozwiązanie](https://github.com/tukarp/Programming-In-Rust/tree/main/Laboratoria/Zestaw%2004/Zestaw%2004a/Zadanie%202.rs)
 
-## [Kolokwium I](https://github.com/tukarp/Programming-In-Rust/tree/main/Laboratoria/Kolokwium%20I)
+## Kolokwium I
 
-## [Zestaw 05a](https://github.com/tukarp/Programming-In-Rust/tree/main/Laboratoria/Zestaw%2005/Zestaw%2005a)
+### [Rozwiązania](https://github.com/tukarp/Programming-In-Rust/tree/main/Laboratoria/Kolokwium%20I)
+
+## Zestaw 05a
+
+### [Rozwiązania](https://github.com/tukarp/Programming-In-Rust/tree/main/Laboratoria/Zestaw%2005/Zestaw%2005a)
 
 ### Zadanie 1
 
