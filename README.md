@@ -35,3 +35,9 @@
 ### Materiały
 
 - [Rust Cheat Sheat](https://cheats.rs/)
+
+### Notatki
+
+
+
+# Notatki
