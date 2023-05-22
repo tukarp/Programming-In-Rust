@@ -1,6 +1,6 @@
 # Programowanie w Rustcie
 
-## Spis Treści
+## Spis treści
 
 ### Laboratoria
 
