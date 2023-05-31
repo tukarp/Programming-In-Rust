@@ -13,6 +13,7 @@
 - [Zestaw 04a](https://github.com/tukarp/Programming-In-Rust/blob/main/Laboratoria/Zestaw%2004/Zestaw%2004a)
 - [Kolokwium I](https://github.com/tukarp/Programming-In-Rust/blob/main/Laboratoria/Kolokwium%20I)
 - [Zestaw 05a](https://github.com/tukarp/Programming-In-Rust/blob/main/Laboratoria/Zestaw%2005/Zestaw%2005a)
+- [Kolokwium II](https://github.com/tukarp/Programming-In-Rust/blob/main/Laboratoria/Kolokwium%20II)
 
 ### Wykłady
 
